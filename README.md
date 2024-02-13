@@ -18,6 +18,8 @@
 
 1- Angular requiere Node.js y npm (Node Package Manager). Por tanto, necesitaremos ver que version tenemmos, para verlo necesitamos usar los siguientes comandos:
 
+```bash
 node --version
 npm --version
+
 
