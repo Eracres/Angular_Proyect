@@ -13,3 +13,7 @@
 - Álvaro Barasona
 - Sergio Cáceres
 - Marcos Almorox
+
+## Instalacion de Angular CLI
+
+
