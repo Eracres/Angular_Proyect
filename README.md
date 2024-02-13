@@ -16,4 +16,8 @@
 
 ## Instalacion de Angular CLI
 
+1- Angular requiere Node.js y npm (Node Package Manager). Por tanto, necesitaremos ver que version tenemmos, para verlo necesitamos usar los siguientes comandos:
+
+node --version
+npm --version
 
