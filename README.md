@@ -16,7 +16,7 @@
 
 # Tutorial instalacion Angular
 
-[Angular](Instalar_Angular.md)
+[Angular](docs/Instalar_Angular.md)
 
 
 
