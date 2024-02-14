@@ -25,4 +25,26 @@ node --version
 npm --version
 ```
 
-2- En caso de no 
+En caso de no estar instalado o estar en una version anterior, realizar el siguiente comando para su instalación:
+
+ ```bash
+npm install
+```
+
+### 2- Instalar Angular
+
+Una vez instalado Node.js, instalaremos angular, que lo realizaremos con el siguiente comando desde nuestra terminal de IDE
+
+ ```bash
+npm install -g @angular/cli
+```
+
+Despues de todo el proceso de instalación tendremos que tener un arbol de directorios de la siguiente forma:
+
+![image](https://github.com/Eracres/Angular_Proyect/assets/122403544/0172cfcb-95ab-47f9-a918-7830e1f99889)
+
+
+
+
+
+
