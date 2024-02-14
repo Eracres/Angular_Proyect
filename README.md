@@ -34,15 +34,15 @@
    - [ ] Implementación
    - [ ] Pruebas
 
-**SPRINT 3:**
-20 de febrero. Spring Planning 3/Daily Scrum 3, Review 3, Retrospective. SPRINT
+**SPRINT 3:** Spring Planning 3 - Daily Scrum 3 - Review 3 - Retrospective
+20 de febrero. 
   BACKOG
    - [ ] Selección de funcionalidad a implementar
    - [ ] Implementación
    - [ ] Pruebas
         
-**SPRINT 4:**
-26 de febrero. Spring Planning 4/Daily Scrum 4, Review 4, Retrospective. SPRINT
+**SPRINT 4:** Spring Planning 4 - Daily Scrum 4 - Review 4 - Retrospective
+26 de febrero. 
   BACKOG
    - [ ] Selección de funcionalidad a implementar
    - [ ] Implementación
