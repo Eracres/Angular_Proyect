@@ -21,28 +21,32 @@
 # Hitos del proyecto
 
 **SPRINT 1:** Spring Planning 1 - Daily Scrum 1 - Review 1 - Retrospective
-15 de febrero. 
+15 de febrero
+
   BACKLOG
    - [ ] Elección Angular o Vue. Proceso de instalación y uso básico de ejemplo.
    - [ ] Análisis del producto. Diseño de la solución adoptada.
    - [ ] Diseño del MVP
          
 **SPRINT 2:** Spring Planning 2 - Daily Scrum 2 - Review 2 - Retrospective
-19 de febrero. 
+19 de febrero
+
   BACKLOG
    - [ ] Selección de funcionalidad a implementar
    - [ ] Implementación
    - [ ] Pruebas
 
 **SPRINT 3:** Spring Planning 3 - Daily Scrum 3 - Review 3 - Retrospective
-20 de febrero. 
+20 de febrero
+
   BACKOG
    - [ ] Selección de funcionalidad a implementar
    - [ ] Implementación
    - [ ] Pruebas
         
 **SPRINT 4:** Spring Planning 4 - Daily Scrum 4 - Review 4 - Retrospective
-26 de febrero. 
+26 de febrero
+
   BACKOG
    - [ ] Selección de funcionalidad a implementar
    - [ ] Implementación
