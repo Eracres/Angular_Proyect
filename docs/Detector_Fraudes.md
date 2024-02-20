@@ -20,7 +20,7 @@ export interface Contribuyente {
 }
 ```
 
-### 3- Servicio de Detección de Fraude:
+## 3- Servicio de Detección de Fraude:
 
 En la carpeta src/app/services, crea un servicio (fraude.service.ts) que se encargue de la lógica para comparar los datos.
 Este servicio leerá los datos JSON oficiales y los proporcionados por las entidades financieras, y realizará las comparaciones necesarias.
