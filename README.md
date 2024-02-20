@@ -32,9 +32,9 @@
 - 19 de febrero
 
   BACKLOG
-   - [ ] Selección de funcionalidad a implementar
-   - [ ] Implementación
-   - [ ] Pruebas
+   - [x] Selección de funcionalidad a implementar
+   - [x] Implementación
+   - [x] Pruebas
 
 **SPRINT 3:** Spring Planning 3 - Daily Scrum 3 - Review 3 - Retrospective
 - 20 de febrero
