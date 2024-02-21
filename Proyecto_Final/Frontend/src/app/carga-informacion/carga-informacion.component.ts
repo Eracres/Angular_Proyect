@@ -1,33 +1,34 @@
-import { Component } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-carga-informacion',
   standalone: true,
-  imports: [],
+  imports: [CommonModule], // Importa CommonModule aquí
   templateUrl: './carga-informacion.component.html',
-  styleUrl: './carga-informacion.component.css'
+  styleUrls: ['./carga-informacion.component.css']
 })
-export class CargaInformacionComponent {
+export class CargaInformacionComponent implements OnInit {
+  datosCargados: any[] = [];
+
   constructor(private http: HttpClient) {}
 
-  onFileSelected(event: any) {
-    const file: File = event.target.files[0];
+  ngOnInit(): void {
+    this.cargarDatos();
+  }
 
-    if (file) {
-      const formData = new FormData();
-      formData.append('file', file);
-
-      const headers = new HttpHeaders({
-        'security-token': 'tu-token-de-seguridad'
-      });
-
-      this.http.post('tu-url-backend/carga', formData, { headers: headers })
-        .subscribe(response => {
-          console.log('Respuesta del servidor', response);
-        }, error => {
-          console.error('Error al cargar el archivo', error);
-        });
-    }
+  cargarDatos() {
+    this.http.get('/assets/data.json').subscribe(
+      (data: any) => {
+        this.datosCargados = data;
+        console.log('Datos cargados:', data);
+      },
+      (error) => {
+        console.error('Error al cargar los datos', error);
+      }
+    );
   }
 }
+
+

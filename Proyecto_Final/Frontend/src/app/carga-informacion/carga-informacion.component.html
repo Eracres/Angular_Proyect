@@ -1,4 +1,16 @@
 <div>
-  <input type="file" (change)="onFileSelected($event)">
-  <button (click)="onUpload()">Cargar Archivo</button>
+  <div *ngIf="datosCargados.length > 0">
+    <h2>Datos Cargados:</h2>
+    <ul>
+      <li *ngFor="let item of datosCargados">
+        {{ item.Nombre }} {{ item.Apellido }} - Promotor: {{ item.Promotor }},
+        Entidad Financiera: {{ item['Entidad Financiera'] }}, Cantidad Total: {{ item['Cantidad Total'] | currency }},
+        Aportaciones Mensuales: {{ item['Aportaciones Mensuales'] | currency }}
+      </li>
+    </ul>
+  </div>
+  <div *ngIf="datosCargados.length === 0">
+    No hay datos cargados.
+  </div>
 </div>
+
